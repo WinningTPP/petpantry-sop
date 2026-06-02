@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback } from "react";
 
 // ─── CONFIG ───────────────────────────────────────────────────────────────────
 // REPLACE THIS with your Google Apps Script Web App URL after deployment
-const SHEET_URL = process.env.REACT_APP_SHEET_URL || "YOUR_APPS_SCRIPT_URL_HERE";
+const SHEET_URL = process.env.REACT_APP_SHEET_URL || "https://script.google.com/macros/s/AKfycbzmcMx4aVf0LEkgINBus2S5kOaWUj29t8IrrPDi2Iq_7pn6T0nlMqMP5wIKBjHADnnzKQ/exec";
 
 const GREEN = "#004225";
 const GOLD = "#C1A366";
