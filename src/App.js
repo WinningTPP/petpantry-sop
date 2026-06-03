@@ -35,7 +35,7 @@ async function logToSheet(payload) {
     await fetch(SHEET_URL, {
       method: "POST",
       mode: "no-cors",
-      headers: { "Content-Type": "application/json" },
+
       body: JSON.stringify(payload),
     });
   } catch (e) {
